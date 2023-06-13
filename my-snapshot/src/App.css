@@ -1,0 +1,47 @@
+.image-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.flickr-image:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.search-image{
+  width: 100%;
+  text-align: center;
+}
+.btn-image{
+  margin: 20px 20px;
+}
+
+h1 {
+  font-family: "Josefin Sans", Helvetica;
+  font-size: 3.5em;
+  color: #0d2b49;
+  text-align: center;
+}
+
+.search-text input{
+  width: 300px;
+  height: 20px;
+  
+}
+.search-text button{
+  background-color: #0d2b49;
+  color: white;
+  height: 30px;
+ 
+}
+.btn-image button{
+  background-color: #0d2b49;
+  color: white;
+  width: 75px;
+  margin: 10px;
+}
+.btn-image button:hover{
+  background-color: white;
+  color: #0d2b49;
+}
